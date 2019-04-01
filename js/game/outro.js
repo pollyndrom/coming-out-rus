@@ -300,7 +300,7 @@ function Tell_Me_A_Truth_2(){
 	switch($.outro_convo_truth){
 		case 1: p("Ну, я жду Буквально Не могу Раскрыть: The Game."); break;
 		case 2: p("А если серьезно, никто не называет это гей-районом."); break;
-		case 3: p("Но серьезно, фу. Electronic Arts"); break;
+		case 3: p("Но серьезно, фу, Electronic Arts."); break;
 	}
 
 	Closure_Story();

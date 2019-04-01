@@ -21,7 +21,7 @@ function Start_Dinner_1(){
 	Choose({
 		"Маааам?": Waiting_1,
 		"Пааааап?": Waiting_1,
-		"Отзовитесь, кто нибудь ?": Waiting_1
+		"Отзовитесь, кто-нибудь?": Waiting_1
 	});
 
 }
@@ -106,7 +106,7 @@ function Waiting_2(message){
 
 			Show("mom","mom_stand");
 
-			m("Ник, что ты вытворяешь?! ...");
+			m("Ник, что ты вытворяешь?!...");
 
 			Show("clock","clock_ticking");
 			PlaySound("clock","dinner_ticking",{loop:-1});
