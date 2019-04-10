@@ -1,5 +1,5 @@
-window.onclick = function(){
-	if(choicesDOM.innerHTML==""){
+document.getElementById("game").onclick = function(){
+	if(choicesDOM.innerHTML=="" && !window.GAME_PAUSED){
 		skipStep();
 	}
 }
@@ -30,7 +30,10 @@ subscribe("say", function(character, message){
 	},1);
 
 	// If dialogue bubbles are too big, scroll it.
-	var maxDialogueSpace = game.clientHeight-(260+120); // Game height - (image height + choice height)
+	
+	// var maxDialogueSpace = game.clientHeight-(260+120); // Game height - (image height + choice height)
+	var maxDialogueSpace = game.clientHeight-(240+120); // Game height - (image height + choice height)
+
 	if(dialogueDOM.clientHeight+dialogueDOMOffset > maxDialogueSpace){
 		dialogueDOMOffset = maxDialogueSpace - dialogueDOM.clientHeight;
 		dialogueDOM.style.top = dialogueDOMOffset+"px";

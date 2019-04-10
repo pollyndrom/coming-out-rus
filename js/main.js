@@ -17,6 +17,12 @@ window.onload = function(){
 
 };
 
+window.onresize = function(){ onResize(); };
+function onResize(){
+	document.getElementById("game").style.height = (document.getElementById("game_container").clientHeight-40)+"px";
+}
+onResize();
+
 
 ////////////////////////////////
 //////////// TEST //////////////

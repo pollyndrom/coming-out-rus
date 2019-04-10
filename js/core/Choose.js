@@ -11,6 +11,12 @@ var lastTimestep = null;
 var ticker = 0;
 function step(timestamp) {
 
+	// Not if it's PAUSED
+	if(window.GAME_PAUSED){
+		requestAnimationFrame(step);
+		return;
+	}
+
 	// Tick!
 	publish("tick",[]);
 	
