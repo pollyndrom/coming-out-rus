@@ -11,7 +11,7 @@ function Start_Dinner_4(){
 	Choose({
 		"Ага, потому что папа ТАКОЙ большой образец для подражания.": function(message){
 			n(message);
-			m("Ник, несмотря ни на что, он твой отец, ты должен любить его.");
+			m("Ник, несмотря ни на что, он твой отец. Ты должен любить его.");
 			My_Fault();
 		},
 		"Это не так работает. Я всегда был би.": function(message){
@@ -157,7 +157,7 @@ function Have_You_Had_Sex(){
 	Choose({
 		"Да.": function(message){
 			n(message);
-			m("[ПРИСТУПЫ ТОШНОТЫ ]");
+			m("[ПРИСТУПЫ ТОШНОТЫ]");
 			Have_You_Had_Sex_2();
 		},
 		"Нет.": function(message){
@@ -290,7 +290,7 @@ function Father_Soon(message){
 			m("О нет. Твой отец уже здесь.");
 			Father_Soon_2();
 		},
-		"До тех пор,пока ты ему не расскажешь.": function(message){
+		"До тех пор, пока ты ему не расскажешь.": function(message){
 			$.promise_silence = "tit for tat";
 			
 			n(message);

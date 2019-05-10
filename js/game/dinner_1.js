@@ -74,7 +74,7 @@ function Waiting_2(message){
 			if($.im_a_poet){
 				m("Ты учил поэзию у друга?");
 			}else{
-				m("... Поэтично.");
+				m("Поэтично.");
 			}
 
 			Show("nicky","dinner_nicky_sit");
