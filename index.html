@@ -2,14 +2,23 @@
 <!doctype html>
 <html>
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140071503-1"></script>
+	<!-- Google Analytics -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140071503-1');
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+ga.l=+new Date;
+ga('create', 'UA-140071503-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+	
+<script>
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+ 	'transport': 'beacon',
+ 	'hitCallback': function(){document.location = url;}
+   });
+}
 </script>
 
 	<title>Coming Out Simulator</title>
@@ -60,8 +69,10 @@
 
 				<a target="_blank"
 				   href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fncase.itch.io%2Fcoming-out-simulator-2014&amp;t=Coming Out Simulator, a half-true story about half-truths."
+				  
 				   data-popup-width="626" data-popup-height="436"
-				   onclick="return sharePopup.call(this,event);">
+				   onclick="trackOutboundLink('facebook.com share'); return false; 
+					    return sharePopup.call(this,event);">
 					<img src="icons/facebook.png" width="70" height="70"/>
 				</a>
 
