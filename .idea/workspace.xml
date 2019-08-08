@@ -111,13 +111,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="68" />
+          <entry key="html" value="69" />
           <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="68" />
+          <entry key="HTML" value="69" />
           <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
@@ -129,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="131" column="229" selection-start-line="131" selection-start-column="229" selection-end-line="131" selection-end-column="229" />
+              <caret line="131" column="256" selection-start-line="131" selection-start-column="256" selection-end-line="131" selection-end-column="256" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#1;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -281,12 +281,12 @@
       <workItem from="1558282793300" duration="132000" />
       <workItem from="1558888824892" duration="475000" />
       <workItem from="1559925490186" duration="3253000" />
-      <workItem from="1565292293813" duration="1228000" />
+      <workItem from="1565292293813" duration="1396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51486000" />
+    <option name="totallyTimeSpent" value="51654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="46" width="1348" height="752" extended-state="0" />
@@ -489,7 +489,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="131" column="229" selection-start-line="131" selection-start-column="229" selection-end-line="131" selection-end-column="229" />
+          <caret line="131" column="256" selection-start-line="131" selection-start-column="256" selection-end-line="131" selection-end-column="256" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#1;n#div#6;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
