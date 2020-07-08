@@ -169,7 +169,7 @@ function Play_3(){
 	Show("nicky","coffee_nicky_drink");
 	Show("cup",null);
 
-	p("Я же просто сказал это!");
+	p("Я же просто так сказал!");
 
 	// HACK - Just clear dialogue & stuff.
 	Wait(1000);
