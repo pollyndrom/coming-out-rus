@@ -38,7 +38,7 @@ function Waiting_1(message){
 			$.waiting_action = "eat";
 			Waiting_2(message);
 		},
-		"[подождать ещё немного ]": function(message){
+		"[подождать ещё немного]": function(message){
 			$.waiting_action = "wait";
 			Waiting_2(message);
 		},
@@ -64,7 +64,7 @@ function Waiting_2(message){
 	Show("nicky","dinner_nicky_defiant");
 
 	Choose({
-		"Прекратите плакать, неблагозвучные часы!": function(message){
+		"Прекратите, неблагозвучные часы!": function(message){
 			n(message);
 
 			Show("mom","mom_stand");
@@ -82,7 +82,7 @@ function Waiting_2(message){
 			
 			Waiting_End();
 		},
-		"Угх, почему мы получили эту вещь?": function(message){
+		"Угх, и откуда у нас эта вещь?": function(message){
 			n(message);
 
 			Show("mom","mom_stand");
